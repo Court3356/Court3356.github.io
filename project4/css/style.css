@@ -1,0 +1,411 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif; 
+}
+#home{
+     background-image: url("image1.jpeg");
+    background-size: cover;
+  
+
+    
+}
+#header{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+.logo{
+    width: 10%;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+     line-height: 0px;
+     margin-left: 10%;
+
+   
+    
+    
+   
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+
+    
+    
+    
+    
+  
+   
+}
+ul li a{
+    display: block;
+    padding: 30px 40px;
+    color: #FF0000;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+
+ 
+}
+ul li ul.dropdown li{
+    display: inline-block;
+     background:#FFCCCB;
+
+    
+    
+
+    
+}
+ul.dropdown li a{
+     padding: 20px 0px;
+   
+  
+}
+
+
+ul li ul.dropdown {
+    position: absolute;
+    z-index: 999;
+    display:none;
+    
+}
+ul li a:hover{
+  background:#FFCCCB;
+
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+   
+}
+
+
+    
+.img-area{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+
+
+
+
+#digital{
+    background-image: url("blur7.jpeg");
+    background-size: cover;
+}
+.container{
+    background-color: rgba(225,0,0,0.6);
+   
+
+
+    
+}
+.slider-wrapper{
+    position: relative;
+    max-width:50rem;
+    margin: 0 auto;
+}
+.slider{
+   display:flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0,0%,0%,0.25);
+    border-radius: 0.5rem;
+    
+ 
+}
+.slider img{
+   width: 550px; 
+    height: 340px;
+    scroll-snap-align:start;
+    object-fit: cover;
+    
+}
+
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom:1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.slider-nav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #FF0000;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+#quote{
+    margin-top: 30%;
+    margin-bottom: 30%;
+    font-family:"Papyrus",fantasy;
+    align-content: center;
+}
+#quote p{
+    font-family:"Papyrus",fantasy;
+    font-size: 25px;
+    color: #FFFFFF;
+  
+}
+footer{
+    margin-top:30%;
+    background-color: #cc0000;
+
+    
+    
+}
+
+
+.footer nav ul li{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    display: inline-block;
+    margin-right:17%; 
+    margin:10px;
+    margin-left: 17%;
+    padding-right: 5px;
+    
+    
+    
+}
+.footerNav ul li a{
+    color: #FF0000;
+    list-style: none;
+    text-decoration: none;
+
+    
+    
+}
+.footerBottom{
+    padding: 20px;
+    text-align: center;  
+}
+
+.footerBottom p{
+color: #ffffff;
+
+    
+
+} 
+
+body{
+    background-color: #ffffff;
+
+}
+.heading{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+.heading h1{
+    font-size: 50px;
+    margin-bottom: 25px;
+    position: fixed;
+}
+.heading h1{
+color: #FF0000;
+    position: absolute;
+    width: 80%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+}
+
+#container{
+    width: 90%;
+    margin: auto;
+    padding: 100px 20px;  
+}
+
+#containerabout{
+    width: 90%;
+    margin: auto;
+    padding: 100px 20px;  
+}
+
+img{
+    width: 40%;  
+    margin-right: auto;
+    float: left;
+    display: flex;
+    margin: 35px;
+    
+}
+
+p{
+    color: #FF0000;
+    line-height: 2.5;
+    text-align: center;
+    padding: 5px;
+    margin:15px 0px;   
+}
+
+.description{
+    color: #FFFFFF;
+    
+}
+.description p{
+     color: #FFFFFF;
+    font-family: "Copperplate",fantasy;
+}
+    
+
+
+background-color{
+     background-color: #FF7F7F;
+    
+}
+
+h2{
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 7%;
+    margin-top: 3%;
+    font-size: 50px;
+    
+    
+}
+h3{
+     text-align: center;
+     color: #FF0000;
+     font-size: 50px;
+    margin-bottom: 25px;
+
+    
+    
+
+}
+h4{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Brush Script",cursive;
+    
+}
+h5{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Brush Script",cursive;
+    
+}
+h6{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Brush Script",cursive;
+    
+    
+}
+.container{
+    width:90%;
+    max-width: 600px;
+    max-height: 500%;
+    margin:50px auto;
+    padding:65px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+      
+}
+.container h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+form input,
+form textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding:10px;
+    border: none;
+    border-radius: 5px;
+    
+}
+form input:focus,
+form textarea:focus{
+    outline: none;
+    box-shadow: 0 0 5px;
+    
+}
+form button{
+    display: block;
+    width: 100%;
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+    background-color:#FF0000;
+    cursor: pointer;
+    transition: 0.3s ease;
+    
+}
+form button:hover{
+    background-color: #555;
+}
+
+
+
+
+.container{
+    text-align: center;
+    color: #FFFFFF;
+}
+.heading{
+    margin-bottom: 100px;
+}
+.single1-img p{
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+
+#gimmeakiss{
+    background-image: url("blur1.JPG");
+}
+.description{
+   display: grid;
+    align-items: center;
+    
+}
+#spring{
+    background-image:url("blur2.JPG");
+}
+
+#fish{
+    background-image: url("blur3.JPG");
+}
+#balance{
+    background-image: url("blur4.JPG");
+}
+#ego{
+     background-image: url("blur5.JPG");
+}
+#change{
+    background-image: url("blur6.JPG");
+}
